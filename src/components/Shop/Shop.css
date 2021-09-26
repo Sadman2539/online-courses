@@ -3,9 +3,9 @@
    grid-template-columns: 3fr 1fr;
 }
 .courses{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    padding: 20px 20px 20px 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    gap: 20px;
+    margin: 20px auto;
     box-sizing: border-box;
 }
