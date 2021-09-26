@@ -1,5 +1,5 @@
 # Online-Course-Selection
-The project is hosted on Netlify [live site]().
+The project is hosted on Netlify [live site]('https://online-courses-selection.netlify.app/').
 
 ## Website Description:
 - Online Courses can be selected on the cart.
