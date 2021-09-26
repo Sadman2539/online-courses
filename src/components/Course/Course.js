@@ -13,7 +13,7 @@ const Course = (props) => {
                     <h3>{courseName}</h3>
                     <p>by {author}</p>
                     <h5>${price}</h5>
-                    <button>Add to cart</button>
+                    <button className="regular-btn">Add to cart</button>
                     <button>Wishlist</button>
                 </div>
             </div>
