@@ -32,9 +32,7 @@ const Courses = () => {
                 }
             </div>
             <div className="cart">
-                <Cart
-
-                    cart={cart}></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );

@@ -9,15 +9,21 @@ const Cart = (props) => {
             <h2>Total Courses: {cart.length}</h2>
             <div>
                 <ul>
-                    {cart.map(course => <div className="cartProduct">
+                    {cart.map(course => <li>
+                        <div className="cartProduct">
 
-                        <img className="cartImg" src={course.image} alt="" />
+                            <img className="cartImg" src={course.image} alt="" />
 
-                        <div className="courseName">
-                            {course.courseName.slice(0, 40)}...
+                            <div className="courseName">
+                                {course.courseName.slice(0, 20)}...
+
+                            </div>
+                            <div>
+                                <i className="fas fa-times-circle fa-2x close-btn"></i>
+                            </div>
+
                         </div>
-
-                    </div>)}
+                    </li>)}
                 </ul>
             </div>
             <hr />

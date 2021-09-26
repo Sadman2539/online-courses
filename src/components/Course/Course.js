@@ -24,7 +24,7 @@ const Course = (props) => {
                         emptySymbol="far fa-star rating-icon"
                         fullSymbol="fas fa-star rating-icon"
                         readonly
-                    />  ({enrolled})
+                    />  <span>({enrolled})</span>
                     <h3>${price}</h3>
                     <button className="regular-btn" onClick={() => props.handleAddToButton(props.course)}>
                         <FontAwesomeIcon className="btn-icon" icon={faShoppingCart} />

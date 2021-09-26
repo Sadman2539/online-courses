@@ -1,9 +1,15 @@
 .header{
-    background-color: #5624d0;
+    background-color: #6b42d4c0;
     color: white;
     padding:10px 0;
     text-align: center;
 }
 .header h3{
     margin-bottom: 0;
+}
+.bold{
+    color: gold;
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: 4px 2px 3px  black;
 }

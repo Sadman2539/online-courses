@@ -3,7 +3,7 @@
         "key": 1,
         "courseName": "The Web Developer Bootcamp 2021",
         "author": "Colt Steele",
-        "star": 4.7,
+        "star": 4.5,
         "enrolled": 12000,
         "price": 19,
         "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
@@ -12,7 +12,7 @@
         "key": 2,
         "courseName": "The Complete JavaScript Course 2021: From Zero to Expert!",
         "author": "Colt Steele",
-        "star": 4.7,
+        "star": 3.7,
         "enrolled": 12000,
         "price": 12,
         "image": "https://img-c.udemycdn.com/course/240x135/2031086_e14b_2.jpg"
@@ -21,7 +21,7 @@
         "key": 3,
         "courseName": "Modern React with Redux Full-course",
         "author": "Colt Steele",
-        "star": 4.7,
+        "star": 4.3,
         "enrolled": 12000,
         "price": 30,
         "image": "https://img-c.udemycdn.com/course/240x135/1595142_25ae_2.jpg"
@@ -30,7 +30,7 @@
         "key": 4,
         "courseName": "The Complete JavaScript Course 2021: From Zero to Expert!",
         "author": "The Net Ninja",
-        "star": 4.8,
+        "star": 3.5,
         "enrolled": 12000,
         "price": 34,
         "image": "https://img-c.udemycdn.com/course/240x135/1148292_ae98.jpg"
@@ -48,7 +48,7 @@
         "key": 6,
         "courseName": "React Tutorial and Projects Course",
         "author": "John Smilga",
-        "star": 4.0,
+        "star": 4.5,
         "enrolled": 1589,
         "price": 19,
         "image": "https://img-c.udemycdn.com/course/240x135/2230522_1b16_3.jpg"
