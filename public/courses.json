@@ -9,6 +9,7 @@
         "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
     },
     {
+        "key": 2,
         "courseName": "Game Development 2021",
         "author": "Colt Steele",
         "star": 4.7,
@@ -17,6 +18,7 @@
         "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
     },
     {
+        "key": 3,
         "courseName": "Modern React with Redux",
         "author": "Colt Steele",
         "star": 4.7,
@@ -25,6 +27,7 @@
         "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
     },
     {
+        "key": 4,
         "courseName": "Advanced React and Redux",
         "author": "Colt Steele",
         "star": 4.7,
@@ -33,6 +36,7 @@
         "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
     },
     {
+        "key": 5,
         "courseName": "Node with React: Fullstack Web Development",
         "author": "Stephen Grider",
         "star": 4.7,
@@ -41,6 +45,7 @@
         "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
     },
     {
+        "key": 6,
         "courseName": "React Tutorial and Projects Course",
         "author": "John Smilga",
         "star": 4.7,
@@ -49,6 +54,7 @@
         "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
     },
     {
+        "key": 7,
         "courseName": "The Web Developer Bootcamp 2021",
         "author": "Colt Steele",
         "star": 4.7,
@@ -57,6 +63,7 @@
         "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
     },
     {
+        "key": 8,
         "courseName": "The Web Developer Bootcamp 2021",
         "author": "Colt Steele",
         "star": 4.7,
@@ -65,14 +72,16 @@
         "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
     },
     {
-        "courseName": "The Web Developer Bootcamp 2021",
-        "author": "Colt Steele",
-        "star": 4.7,
-        "enrolled": 12000,
-        "price": 19,
-        "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg"
+        "key": 9,
+        "courseName": "Data Science Workshop 2021: 10 Real Projects From Scratch",
+        "author": "Pianalytix",
+        "star": 3.8,
+        "enrolled": 300,
+        "price": 10,
+        "image": "https://img-c.udemycdn.com/course/240x135/4209308_3f34.jpg"
     },
     {
+        "key": 10,
         "courseName": "The Web Developer Bootcamp 2021",
         "author": "Colt Steele",
         "star": 4.7,
