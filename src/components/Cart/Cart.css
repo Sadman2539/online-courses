@@ -1,0 +1,32 @@
+.cartBody{
+margin-right: 10px;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.cartProduct{
+    display: flex;
+    margin-bottom: 10px;
+    
+    
+}
+.cartImg{
+   width: 20%;
+}
+.courseName{
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px;
+    padding:5px;
+    margin-left: 5px;
+    border-radius:5px;
+    box-shadow: 5px 5px 15px gray;
+    overflow: hidden;
+}
+.cartBody hr{
+    width: 80%;
+    color: gray;
+
+}

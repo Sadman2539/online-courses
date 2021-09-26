@@ -1,19 +1,41 @@
 .card{
-    border: 1px solid gray;
+    box-shadow: 5px 3px 15px gray;
     border-radius: 10px;
     height: 400px;
-    width: 300px;
+    width: 270pxpx;
     padding: 10px;
+    overflow: hidden;
 }
 .card p{
-    margin: 0;
+    margin: 5px;
 }
-.card h3{
-    margin: 5px 0 0 0;
-}
+
 .card-img img{
     width: 100%;
 }
 .card-body{
 
+}
+.rating-icon{
+    color: #E59819;
+}
+.regular-btn{
+    background-color: rgb(164,53,240);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    display: inline;
+    box-sizing: border-box;
+}
+.regular-btn:hover{
+color: rgb(164,53,240);
+background-color: white;
+border: 1px solid rgb(164,53,240);
+}
+
+.btn-icon{
+    margin-right: 5px;
 }

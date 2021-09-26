@@ -5,8 +5,9 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     width: 80%;
-    gap: 10px;
+    gap: 20px;
     padding: 20px;
+    box-sizing: border-box;
 }
 .cart{
     width: 20%;

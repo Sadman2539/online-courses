@@ -1,14 +1,28 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = () => {
+const Cart = (props) => {
+    const { cart } = props;
+    const totalPrice = cart.reduce((previous, course) => previous + course.price, 0);
     return (
-        <div>
-            <h3>Total Courses: 0</h3>
+        <div className="cartBody">
+            <h2>Total Courses: {cart.length}</h2>
             <div>
-                <p>Course Name</p>
+                <ul>
+                    {cart.map(course => <div className="cartProduct">
+
+                        <img className="cartImg" src={course.image} alt="" />
+
+                        <div className="courseName">
+                            {course.courseName.slice(0, 40)}...
+                        </div>
+
+                    </div>)}
+                </ul>
             </div>
-            <h6>Total Price: </h6>
+            <hr />
+            <h2>Total Price: ${totalPrice.toFixed(2)}</h2>
+            <button className="regular-btn">Checkout</button>
         </div>
     );
 };
